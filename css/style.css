@@ -1,0 +1,190 @@
+/* Debug */
+
+.debug #site_header {
+    height: 81px;
+    background-color: blue;
+}
+
+.debug .logo {
+    height: 81px;
+    background-color: yellow;
+    border: 4px solid purple;
+
+}
+
+.debug .a-tag {
+    height: 81px;
+    background-color: yellow;
+    border: 4px solid purple;
+}
+
+.debug .login {
+    height: 81px;
+    background-color: yellow;
+    border: 4px solid purple;
+}
+
+.debug .banner {
+    height: 570px;
+    background-color: orange;
+}
+
+.debug .banner-content {
+    height: 500px;
+    background-color: green;
+}
+
+.debug .white-section {
+    height: 800px;
+    background-color: white;
+}
+
+.debug .image {
+    height: 700px;
+    background-color: yellow;
+}
+
+.debug .content {
+    height: 700px;
+    background-color: purple;
+}
+
+.debug .grey-section {
+    height: 800px;
+    background-color: grey;
+}
+
+.debug .technology-section {
+    height: 1300px;
+    background-color: rgb(57, 57, 57);
+}
+
+.debug .technology-content {
+    height: 1000px;
+    background-color: red;
+}
+
+.debug #site_footer {
+    height: 700px;
+    background-color: black;
+}
+
+.debug .row {
+    background-color: yellow;
+    height: 500px;
+    width: 70%;
+}
+
+.debug .col-4 {
+    background-color: purple;
+    border: 2px dashed blue;
+}
+
+.debug .col-2 {
+    background-color: purple;
+    border: 2px dashed blue;
+}
+
+.debug .signup {
+    height: 130px;
+    background-color: green;
+}
+
+/* Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.login {
+    width: 15%;
+}
+
+.banner-content,
+.technology-content {
+    width: 70%;
+}
+
+
+.banner,
+.white-section,
+.grey-section,
+.technology-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 50%;
+}
+
+.content {
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.signup {
+    width: 70%;
+}
+
+.container-signup {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+header {
+    background-color: #265EE8;
+    padding: 1rem;
+    width: 100%;
+    min-width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .a-tag {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+button {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.container.topheader {
+    justify-content: space-evenly;
+}
