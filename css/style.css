@@ -98,7 +98,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif
 }
 
 .container {
@@ -111,7 +111,7 @@ body {
 
 .banner-content,
 .technology-content {
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -178,13 +178,60 @@ a {
 }
 
 
-button {
+.w-button {
     background-color: white;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    font-size: medium;
+    margin: 0 0.5rem;
+}
+
+.b-button {
+    background-color: #23272A;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: medium;
+    margin: 0 0.5rem;
 }
 
 .container.topheader {
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.banner-content {
+    background-image: url("/img-discord/jumbo.png");
+    width: 100%;
+    aspect-ratio: 1120 / 417;
+    background-size: contain;
+    color: white;
+}
+
+.banner-content {
+    justify-content: center;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+p {
+    font-size:smaller;
+}
+
+.banner-text {
+    width:40%
+}
+
+#p-banner {
+    padding-top: 2rem;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 1rem;
 }
