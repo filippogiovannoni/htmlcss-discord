@@ -123,9 +123,6 @@ body {
     align-items: center;
 }
 
-.image {
-    width: 50%;
-}
 
 .content {
     width: 25%;
@@ -240,6 +237,7 @@ p {
 .container.white-section {
     width: 100%;
     padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 .container.image {
@@ -252,4 +250,24 @@ p {
     font-size: 15px;
     line-height: 20px;
     padding-bottom: 1rem;
+}
+
+#wave-up {
+    width: 150%;
+    filter: invert(100%) sepia(6%) saturate(2149%) hue-rotate(216deg) brightness(115%) contrast(93%);
+}
+
+#wave-down {
+    width: 150%;
+    filter: invert(100%) sepia(6%) saturate(2149%) hue-rotate(216deg) brightness(115%) contrast(93%);
+    transform: scaleY(-1);
+
+}
+
+.container.grey-section {
+    background-color: #F6F6F6;
+}
+
+#voice {
+    padding-left: 4rem;
 }
