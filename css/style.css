@@ -195,6 +195,16 @@ a {
     margin: 0 0.5rem;
 }
 
+.blue-button {
+    background-color: #8FA1E1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: smaller;
+    margin: 1rem 0.5rem;
+}
+
 .container.topheader {
     width: 80%;
     justify-content: space-between;
@@ -294,4 +304,10 @@ p {
 
 .container.technology-section {
     flex-flow: column;
+}
+
+h3 {
+    background-image: url("/img-discord/stars.svg");
+    padding: 0.6rem 2rem;
+    background-size: contain;
 }
