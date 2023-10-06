@@ -131,7 +131,8 @@ body {
 
 .row {
     display: flex;
-    margin: auto;
+    gap: 6rem;
+    padding: 5rem;
 }
 
 .col-2 {
@@ -310,4 +311,46 @@ h3 {
     background-image: url("/img-discord/stars.svg");
     padding: 0.6rem 2rem;
     background-size: contain;
+}
+
+#site_footer {
+    background-color:#23272A;
+}
+
+h4 {
+    font-size: smaller;
+}
+
+h4, h2 {
+    color: #728ADB;
+}
+
+.container.footer {
+    justify-content: center;
+}
+
+#italy {
+    width: 10%;
+    padding-top: 1rem;
+}
+
+.container.col-4 {
+    flex-wrap: wrap;
+}
+
+#p-italy {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: white;
+}
+
+.p-links {
+    padding-top: 0.5rem;
+    color: white;
+}
+
+hr {
+    background-color: #ff2200;
+    width: 80%;
+    margin: auto;
 }
