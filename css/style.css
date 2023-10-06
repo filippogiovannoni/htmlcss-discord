@@ -237,7 +237,7 @@ p {
 .container.white-section {
     width: 100%;
     padding-top: 6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 .container.image {
@@ -250,6 +250,16 @@ p {
     font-size: 15px;
     line-height: 20px;
     padding-bottom: 1rem;
+    text-align: left;
+}
+
+.p-content-big {
+    padding-top: 2rem;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 1rem;
+    width: 70%;
+    text-align: center;
 }
 
 #wave-up {
@@ -270,4 +280,17 @@ p {
 
 #voice {
     padding-left: 4rem;
+}
+
+.container.technology {
+    background-color: #F6F6F6;
+    justify-content: center;
+}
+
+.technology-section {
+    width: 80%;
+}
+
+.container.technology-section {
+    flex-flow: column;
 }
