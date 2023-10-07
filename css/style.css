@@ -149,7 +149,10 @@ body {
 
 .container-signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
 }
 
 
@@ -314,14 +317,15 @@ h3 {
 }
 
 #site_footer {
-    background-color:#23272A;
+    background-color: #23272A;
 }
 
 h4 {
     font-size: smaller;
 }
 
-h4, h2 {
+h4,
+h2 {
     color: #728ADB;
 }
 
@@ -331,7 +335,7 @@ h4, h2 {
 
 #italy {
     width: 10%;
-    padding-top: 1rem;
+    height: 15%;
 }
 
 .container.col-4 {
@@ -339,8 +343,7 @@ h4, h2 {
 }
 
 #p-italy {
-    padding-top: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     color: white;
 }
 
