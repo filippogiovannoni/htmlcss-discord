@@ -216,7 +216,7 @@ a {
 }
 
 .banner-content {
-    background-image: url("/img-discord/jumbo.png");
+    background-image: url("../img-discord/jumbo.png");
     width: 100%;
     aspect-ratio: 1120 / 417;
     background-size: contain;
@@ -311,7 +311,7 @@ p {
 }
 
 h3 {
-    background-image: url("/img-discord/stars.svg");
+    background-image: url("../img-discord/stars.svg");
     padding: 0.6rem 2rem;
     background-size: contain;
 }
