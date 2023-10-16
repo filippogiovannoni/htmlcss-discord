@@ -156,6 +156,159 @@ body {
 }
 
 
+/* CSS Effects */
+
+.logo {
+    animation-name: logo;
+    animation-duration: 4s;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.scarica:hover {
+    text-decoration: underline white
+}
+
+.discord:hover {
+    text-decoration: underline white
+}
+
+.nitro:hover {
+    text-decoration: underline white
+}
+
+.sicurezza:hover {
+    text-decoration: underline white
+}
+
+.assistenza:hover {
+    text-decoration: underline white
+}
+
+.w-button {
+    transition: filter 300ms;
+}
+
+.w-button:hover {
+    filter: drop-shadow(2px 4px 8px black);
+    background-color: whitesmoke
+}
+
+.b-button {
+    transition: filter 300ms;
+}
+
+.b-button:hover {
+    filter: drop-shadow(2px 4px 8px black);
+    background-color: black;
+}
+
+.blue-button {
+    transition: filter 300ms;
+}
+
+.blue-button:hover {
+    filter: drop-shadow(2px 4px 8px black);
+    background-color: #728ADB;
+}
+
+#place {
+    filter: blur(2px);
+    transition: filter 500ms;
+}
+
+#place:hover {
+    filter: blur(0);
+}
+
+#voice {
+    filter: blur(2px);
+    transition: filter 500ms;
+}
+
+#voice:hover {
+    filter: blur(0);
+}
+
+#coach {
+    filter: blur(2px);
+    transition: filter 500ms;
+}
+
+#coach:hover {
+    filter: blur(0);
+}
+
+.stars {
+    animation-name: stars;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stars {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#banner-txt {
+    animation-name: text;
+    animation-duration: 4s;
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.block {
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement {
+    0% {
+        right: 0;
+    }
+
+    50% {
+        left: 1130px;
+    }
+
+    100% {
+        right: 0;
+    }
+
+}
+
+#italy {
+    transition: border-radius 1s;
+}
+
+#italy:hover {
+    border-radius: 10px;
+}
+
+/* End CSS Effects */
 
 
 
@@ -310,7 +463,7 @@ p {
     flex-flow: column;
 }
 
-h3 {
+.stars {
     background-image: url("../img-discord/stars.svg");
     padding: 0.6rem 2rem;
     background-size: contain;
@@ -356,4 +509,17 @@ hr {
     background-color: #ff2200;
     width: 80%;
     margin: auto;
+}
+
+.line {
+    position: relative;
+}
+
+.block {
+    background-color: #23272A;
+    height: 10px;
+    width: 40px;
+    position: absolute;
+    left: 200px;
+    top: -2px;
 }

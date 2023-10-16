@@ -14,11 +14,11 @@
         <div class="container topheader">
             <div class="logo"><img src="./img-discord/logo.svg" alt="Discord Logo "></div>
             <div class="container a-tag">
-                <a href="">Scarica</a>
-                <a href="">Perchè Discord</a>
-                <a href="">Nitro</a>
-                <a href="">Sicurezza</a>
-                <a href="">Assistenza</a>
+                <div class="scarica"><a href="">Scarica</a></div>
+                <div class="discord"><a href="">Perchè Discord</a></div>
+                <div class="nitro"><a href="">Nitro</a></div>
+                <div class="sicurezza"><a href="">Sicurezza</a></div>
+                <div class="assistenza"><a href="">Assistenza</a></div>
             </div>
             <button class="w-button">Accedi</button>
         </div>
@@ -29,7 +29,7 @@
         <div class="container banner">
             <div class="container banner-content">
                 <div class="banner-text">
-                    <h1>Il tuo posto per parlare</h1>
+                    <h1 id="banner-txt">Il tuo posto per parlare</h1>
                     <p id="p-banner">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica
                         mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
                         Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
@@ -40,7 +40,7 @@
         </div>
         <div class="container white-section">
             <div class="container image">
-                <img src="./img-discord/item1.svg" alt="discord channels">
+                <img id="place" src="./img-discord/item1.svg" alt="discord channels">
                 <div class="content">
                     <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
                     <p class="p-content">I server Discord sono organizzati in canali tematici in cui puoi collaborare,
@@ -62,7 +62,7 @@
         <img id="wave-down" src="./img-discord/wave.svg" alt="wave pattern">
         <div class="container white-section">
             <div class="container image">
-                <img src="./img-discord/item3.svg" alt="coach">
+                <img id="coach" src="./img-discord/item3.svg" alt="coach">
                 <div class="content">
                     <h1>Da pochi a un fandom</h1>
                     <p class="p-content">Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione
@@ -82,7 +82,7 @@
                     di disegno con la condivisione schermo.</p>
                 <img src="./img-discord/item4-big.svg" alt="technology img">
                 <div>
-                    <h3>Pronto a iniziare la tua avventura?</h3>
+                    <h3 class="stars">Pronto a iniziare la tua avventura?</h3>
                 </div>
                 <button class="blue-button">&darr; Scarica per Mac</button>
             </div>
@@ -144,7 +144,10 @@
             </div>
         </div>
 
-        <hr>
+        <div class="line">
+            <hr>
+            <div class="block"></div>
+        </div>
 
         <div class="container-signup">
             <img src="./img-discord/logo.svg" alt="Discord Logo">
